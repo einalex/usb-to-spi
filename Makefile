@@ -1,5 +1,5 @@
 PRG            = spi_controller
-OBJ            = spi_controller.o usart.o fifo.o
+OBJ            = spi_controller.o usart.o fifo.o spi.o
 MCU_TARGET     = atmega328p
 OPTIMIZE       = -Os
 
