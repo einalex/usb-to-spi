@@ -167,5 +167,8 @@ int main(void)
 			spi_transmit(buffer, 3);
 			printf_P(PSTR("Transmitted 0x%2hhX%2hhX%2hhX\n"), buffer[2], buffer[1], buffer[0]);
 		}
+		else {
+			puts_P(PSTR("Invalid command."));
+		}
 	}
 }
